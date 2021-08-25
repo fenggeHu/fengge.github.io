@@ -4,7 +4,8 @@ title:  个人文档库
 
 # 云原生 - CloudNative
 [Mac安装K8S+Istio](_posts/cloudnative/2021-8-5-Mac安装K8S+Istio.md)
-[安装k8s集群](_posts/cloudnative/2021-8-25-k8s-cluster-install.md)
+
+[安装k8s集群](_posts/cloudnative/2021-8-25-安装k8s集群.md)
 
 [K8S常用命令](_posts/cloudnative/2021-8-25-K8S命令.md)
 

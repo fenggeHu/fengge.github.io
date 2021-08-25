@@ -1,4 +1,5 @@
 title: 锋哥の笔记
+description: 记录学习和实践过程中的笔记，欢迎交流。
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-relative-links

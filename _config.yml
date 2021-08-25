@@ -1,5 +1,5 @@
 title: 锋哥's文档
-theme: jekyll-theme-midnight
+theme: jekyll-theme-merlot
 plugins:
   - jekyll-relative-links
 relative_links:

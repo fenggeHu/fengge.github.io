@@ -1,7 +1,8 @@
 个人文档
 
 # CloudNative
-[安装k8s集群](_posts/k8s_cluster_install.md)
+[安装k8s集群](_posts/k8s-cluster-install.md)
+[K8S常用命令](_posts/2021-8-25-K8S命令.md)
 
 # Golang
 1. [golang](_posts/golang.md)
@@ -11,7 +12,7 @@
 
 
 # 工具
-[Arya - 在线 Markdown 编辑器](_posts/tools/Arya_editor_online.md)
+[Arya - 在线 Markdown 编辑器](_posts/tools/2021-08-25-Arya_editor_online.md)
 
 联系方式 pbfoxhu@gmail.com
 

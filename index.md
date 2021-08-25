@@ -1,7 +1,7 @@
 个人文档
 
 # CloudNative
-[安装k8s集群](_post/k8s_cluster_install.md)
+[安装k8s集群](_posts/k8s_cluster_install.md)
 
 # Golang
 1. [golang](_posts/golang.md)

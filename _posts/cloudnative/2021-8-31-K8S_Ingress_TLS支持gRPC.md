@@ -41,7 +41,7 @@ metadata:
   name: grpc-server
   namespace: jinfeng
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: grpc-server
@@ -54,7 +54,7 @@ spec:
       containers:
         - env:
             - name: JAVA_OPTS
-              value: -Xmx1G -Xms1G
+              value: -Xmx1G -Xms128M
           image: harbor-test.jinfeng.io/example/grpc-server:v2
           imagePullPolicy: IfNotPresent
           name: grpc-server

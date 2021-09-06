@@ -9,7 +9,7 @@ title:  个人文档库
 
 [K8S常用命令](_posts/cloudnative/2021-8-25-K8S命令.md)
 
-[Ingress-nginx_支持TLS-gRPC](_posts/cloudnative/2021-8-31-K8S_Ingress_TLS支持gRPC.md)
+[Ingress-nginx_配置TLS-gRPC](_posts/cloudnative/2021-8-31-K8S_Ingress_TLS支持gRPC.md)
 
 # Golang
 golang笔记

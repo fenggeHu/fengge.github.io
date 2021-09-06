@@ -912,5 +912,23 @@ spec:
 ```
 ingress-nginx官方示例，https://github.com/kubernetes/ingress-nginx/tree/main/docs/examples/grpc
 
-# java grpc启用grpc.WithInsecure()
-参考：https://grpc.io/docs/guides/auth/#with-server-authentication-ssltls-5
+# java grpc ssl
+1，借助ingress-nginx的能力，服务端不需要改造
+2，客户端需要启用TLS，指定sslContext。
+客户端参考代码：
+```java
+// 创建SslContext
+private static SslContext sslContext = buildSslContext();
+@SneakyThrows
+private static SslContext buildSslContext(/**String trustCertCollectionFilePath,
+                                          String clientCertChainFilePath,
+                                          String clientPrivateKeyFilePath */) {
+    SslContextBuilder builder = GrpcSslContexts.forClient();
+    File crtFile = ResourceUtils.getFile("classpath:grpctls.crt");
+    builder.trustManager(crtFile);
+    return builder.build();
+}
+
+// 构建 NettyChannelBuilder
+NettyChannelBuilder builder = NettyChannelBuilder.forAddress(address).negotiationType(NegotiationType.TLS).sslContext(sslContext);
+```

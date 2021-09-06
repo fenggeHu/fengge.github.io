@@ -24,7 +24,7 @@ kubectl label node docker-desktop isIngress="true"
 # 安装ingress-nginx/controller
 使用DaemonSet+HostNetwork+nodeSelector方式，所以修改了kind:Deployment为kind:DaemonSet及配置，修改处有注释.
 ```shell
-https://fenggehu.github.io/2021/9/6/ingress-nginx-controller-v1.0.0.yaml
+kubectl apply -f https://github.com/fenggeHu/fenggehu.github.io/blob/master/k8s/ingress-nginx-controller-v1.0.0.yaml
 ```
 
 # backend 服务参考配置

@@ -1,5 +1,7 @@
-# 
-在ingress-nginx基础上通过ingress对grpc服务进行访问.
+# 目标
+1，通过ingress-nginx实现gRPC服务的负载均衡
+2，通过ingress-nginx实现gRPC服务的SSL/TLS加密传输
+3，待验证：使用此方式gRPC服务的性能
 
 # 创建ssl证书
 ```shell

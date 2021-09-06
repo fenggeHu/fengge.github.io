@@ -240,15 +240,13 @@ ingress-nginx官方示例，https://github.com/kubernetes/ingress-nginx/tree/mai
 // 创建SslContext
 private static SslContext sslContext = buildSslContext();
 @SneakyThrows
-private static SslContext buildSslContext(/**String trustCertCollectionFilePath,
-                                          String clientCertChainFilePath,
-                                          String clientPrivateKeyFilePath */) {
+private static SslContext buildSslContext() {
     SslContextBuilder builder = GrpcSslContexts.forClient();
     File crtFile = ResourceUtils.getFile("classpath:grpctls.crt");
     builder.trustManager(crtFile);
     return builder.build();
 }
 
-// 构建 NettyChannelBuilder
+// 构建 NettyChannelBuilder 伪代码
 NettyChannelBuilder builder = NettyChannelBuilder.forAddress(address).negotiationType(NegotiationType.TLS).sslContext(sslContext);
 ```

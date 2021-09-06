@@ -1,5 +1,5 @@
 title: 锋哥の笔记
-description: 记录学习和实践过程中的笔记，欢迎交流。
+description: 只记录经过实践验证可用的文档，欢迎批评指正。
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-relative-links

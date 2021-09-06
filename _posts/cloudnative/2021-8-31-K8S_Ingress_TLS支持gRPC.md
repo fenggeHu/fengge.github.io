@@ -3,6 +3,10 @@
 2，通过ingress-nginx实现gRPC服务的SSL/TLS加密传输
 3，待验证：使用此方式gRPC服务的性能
 
+# 环境
+kubernetes v1.21.3
+ingress-nginx v1.0.0
+
 # 创建ssl证书
 ```shell
 openssl req -x509 -nodes -days 36500 -newkey rsa:2048 -keyout grpctls.key -out grpctls.crt -subj "/CN=*.jinfeng.hu/O=jinfeng.hu"

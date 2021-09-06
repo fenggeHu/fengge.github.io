@@ -169,7 +169,6 @@ metadata:
     nginx.ingress.kubernetes.io/use-regex: "true"
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
     nginx.ingress.kubernetes.io/backend-protocol: "GRPC"
-    nginx.ingress.kubernetes.io/http2-push-preload: "true"
   name: grpc-server-ingress
   labels:
     app: grpc-server-ingress

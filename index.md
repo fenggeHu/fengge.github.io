@@ -11,6 +11,8 @@ title:  实践 - 云原生、微服务、ServiceMesh
 
 [Ingress-nginx_配置TLS-gRPC](_posts/cloudnative/2021-8-31-K8S_Ingress_TLS支持gRPC.md)
 
+[K8S镜像安装过程中的问题](_posts/cloudnative/2021-9-7-K8S镜像安装过程中的问题.md)
+
 # Golang
 golang笔记
 1. [golang](_posts/golang.md)

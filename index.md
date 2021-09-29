@@ -15,7 +15,7 @@ title:  实践 - 云原生、微服务、ServiceMesh
 
 # Golang
 golang笔记
-1. [golang](_posts/golang.md)
+1. [Go常用命令](_posts/golang/2021-9-29-Go常用命令.md)
 2. 
 
 

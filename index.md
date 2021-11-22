@@ -21,7 +21,7 @@ golang笔记
 
 # Java
 Java&Spring
-
+[Spring小众用法记录](_post/java/2021-11-22-Spring小众用法.md)
 
 # 工具
 Develop tools

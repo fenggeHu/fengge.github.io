@@ -18,10 +18,10 @@ golang笔记
 
 # Java
 Java
-1. [动态编译Java类](_post/java/2021-12-23-动态编译Java类.md) 
+1. [动态编译Java类](_posts/java/2021-12-23-动态编译Java类.md) 
 
 Spring
-1. [Spring小众用法记录](_post/java/2021-11-22-Spring小众用法.md) 
+1. [Spring小众用法记录](_posts/java/2021-11-22-Spring小众用法.md) 
 2. [springweb默认使用Gson序列化](_post/java/2021-12-27-springweb默认使用Gson序列化.md) 
 
 # 工具

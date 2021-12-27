@@ -22,8 +22,12 @@ golang笔记
 
 
 # Java
-Java&Spring
+Java
+[动态编译Java类](_post/java/2021-12-23-动态编译Java类.md)
+
+Spring
 [Spring小众用法记录](_post/java/2021-11-22-Spring小众用法.md)
+[springweb默认使用Gson序列化](_post/java/2021-12-27-springweb默认使用Gson序列化.md)
 
 # 工具
 Develop tools

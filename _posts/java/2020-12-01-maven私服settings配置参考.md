@@ -1,7 +1,7 @@
 
 # 配置deploy需注意
-1，配置<servers/>
-2，配置profile->properties: altSnapshotDeploymentRepository\altReleaseDeploymentRepository
+1，配置servers 
+2，配置profile->properties: altSnapshotDeploymentRepository\altReleaseDeploymentRepository  
 3，项目pom.xml中的build依赖maven-deploy-plugin版本一定要2.8以上，否则报错
 
 # settings.xml

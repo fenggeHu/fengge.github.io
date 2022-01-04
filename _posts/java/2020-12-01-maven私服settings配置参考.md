@@ -1,3 +1,17 @@
+# maven打包强制更新依赖
+1，打包命令方式，只能更新snapshots包
+mvn clean install -U    ## Forces a check for missing releases and updated snapshots on remote repositories
+2，setting.xml配置，用于程序部署的打包
+```xml
+<snapshots>
+    <enabled>true</enabled>
+    <updatePolicy>always</updatePolicy>
+</snapshots>
+<releases>
+	<enabled>true</enabled>
+    <updatePolicy>always</updatePolicy>
+</releases>
+```
 
 # 配置deploy需注意
 1，配置servers 

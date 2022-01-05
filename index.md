@@ -22,7 +22,7 @@ Java
 2. [maven-deploy配置参考](_posts/java/2020-12-01-maven私服settings配置参考.md)
 
 Spring
-1. [Spring小众用法记录](_posts/java/2021-11-22-Spring小众用法.md) 
+1. [Spring RestController处理返回值](_posts/java/2021-11-22-SpringRestController处理返回值.md) 
 2. [springweb默认使用Gson序列化](_post/java/2021-12-27-springweb默认使用Gson序列化.md) 
 
 # 问题排查

@@ -1,5 +1,5 @@
 title: 锋哥の笔记
-description: 记录实践验证可用的 - [首页](https://fenggehu.github.io)
+description: 记录实践验证可用的 - <a href="https://fenggehu.github.io">首页</a>
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-relative-links

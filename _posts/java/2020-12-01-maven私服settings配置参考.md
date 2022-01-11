@@ -1,6 +1,6 @@
 # maven打包强制更新依赖
 1，打包命令方式，只能更新snapshots包
-mvn clean install -U    ## Forces a check for missing releases and updated snapshots on remote repositories
+mvn clean install -U    ## Forces a check for missing releases and updated snapshots on remote repositories（在setting.xml中配置 updatePolicy--always就不用指定-U）
 2，setting.xml配置，用于程序部署的打包
 ```xml
 <snapshots>
@@ -24,11 +24,8 @@ mvn clean install -U    ## Forces a check for missing releases and updated snaps
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
                       http://maven.apache.org/xsd/settings-1.0.0.xsd">
-    <localRepository/>
-    <interactiveMode/>
-    <usePluginRegistry/>
-    <offline/>
-    <pluginGroups/>
+
+    <localRepository>${user.home}/.m2/repository</localRepository>
     
     <!-- 用于deploy -->
   <servers>
@@ -72,6 +69,10 @@ mvn clean install -U    ## Forces a check for missing releases and updated snaps
 			<releases>
 			  <enabled>true</enabled>
 			</releases>
+			  <snapshots>
+				  <enabled>true</enabled>
+				  <updatePolicy>always</updatePolicy> <!-- 始终更新snapshots -->
+			  </snapshots>
 		  </repository>
 		
 		  <repository>
@@ -129,7 +130,10 @@ mvn clean install -U    ## Forces a check for missing releases and updated snaps
         </properties>
     </profile>
   </profiles>
+
   <activeProfiles>
+	<!-- 很重要：指定的才生效 -->
+    <activeProfile>mynexus</activeProfile>
     <activeProfile>nexus</activeProfile>
   </activeProfiles>
     

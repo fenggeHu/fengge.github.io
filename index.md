@@ -16,6 +16,9 @@ golang笔记
 1. [Go使用日常](_posts/golang/2021-9-29-Go使用日常.md)
 2. 
 
+# 数据库
+1. [Clickhouse测试环境](_posts/database/2022-2-17-clickhouse测试环境.md) 
+ 
 
 # Java
 Java

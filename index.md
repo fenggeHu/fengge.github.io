@@ -37,3 +37,5 @@ Spring
 Develop tools
 [Vagrant安装虚拟机_Mac版](_posts/tools/2021-8-8-Vagrant安装虚拟机_Mac版.md) 
 
+# IT
+[python开发环境和打包](_posts/it/2022-02-21-python环境和打包.md)

@@ -25,6 +25,7 @@ Java
 1. [动态编译Java类](_posts/java/2021-12-23-动态编译Java类.md) 
 2. [maven-deploy配置参考](_posts/java/2020-12-01-maven私服settings配置参考.md)
 3. [maven打包配置](_posts/java/2022-1-11-maven打包配置.md)
+4. [Kafka源码启动](_posts/java/2022-4-2-Kafka源码启动.md)
 
 Spring
 1. [Spring RestController处理返回值](_posts/java/2021-11-22-SpringRestController处理返回值.md) 
@@ -37,5 +38,5 @@ Spring
 Develop tools
 [Vagrant安装虚拟机_Mac版](_posts/tools/2021-8-8-Vagrant安装虚拟机_Mac版.md) 
 
-# IT
+# 其它
 [python开发环境和打包](_posts/it/2022-02-21-python环境和打包.md)

@@ -34,10 +34,9 @@ Spring
 # 问题排查
 [线程的CPU使用率状态](_posts/tools/2020-3-12-线程的CPU使用率状态.md)
 
-# 工具
-Develop tools
-[Vagrant安装虚拟机_Mac版](_posts/tools/2021-8-8-Vagrant安装虚拟机_Mac版.md) 
-[git常用命令](_posts/tools/2022-4-12-git命令.md)
+# 工具 - Develop tools
+- [Vagrant安装虚拟机_Mac版](_posts/tools/2021-8-8-Vagrant安装虚拟机_Mac版.md) 
+- [git常用命令](_posts/tools/2022-4-12-git命令.md)
 
 # 其它
 [python开发环境和打包](_posts/it/2022-02-21-python环境和打包.md)

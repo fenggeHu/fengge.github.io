@@ -32,7 +32,7 @@ Spring
 - [springweb默认使用Gson序列化](_post/java/2021-12-27-springweb默认使用Gson序列化.md) 
 
 # 问题排查
-[线程的CPU使用率状态](_posts/tools/2020-3-12-线程的CPU使用率状态.md)
+- [线程的CPU使用率状态](_posts/tools/2020-3-12-线程的CPU使用率状态.md)
 
 # 工具 - Develop tools
 - [Vagrant安装虚拟机_Mac版](_posts/tools/2021-8-8-Vagrant安装虚拟机_Mac版.md) 

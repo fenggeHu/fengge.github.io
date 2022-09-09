@@ -18,7 +18,7 @@ golang笔记
 
 # 数据库
 - [Clickhouse测试环境](_posts/database/2022-2-17-clickhouse测试环境.md) 
- 
+- [mysql字符集设置](_posts/database/2022-9-9-mysql字符集.md) 
 
 # Java
 Java

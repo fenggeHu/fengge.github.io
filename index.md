@@ -35,8 +35,9 @@ Spring
 - [线程的CPU使用率状态](_posts/tools/2020-3-12-线程的CPU使用率状态.md)
 
 # 工具 - Develop tools
-- [Vagrant安装虚拟机_Mac版](_posts/tools/2021-8-8-Vagrant安装虚拟机_Mac版.md) 
 - [git常用命令](_posts/tools/2022-4-12-git命令.md)
+- [版本管理](_posts/tools/2023-10-13-代码与发布的版本管理.md)
+- [Vagrant安装虚拟机_Mac版](_posts/tools/2021-8-8-Vagrant安装虚拟机_Mac版.md) 
 - [在mac上构建openwrt](_posts/tools/2022-9-23-在mac上构建openwrt.md)
 
 # 其它

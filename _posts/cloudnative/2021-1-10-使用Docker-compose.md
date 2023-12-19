@@ -7,6 +7,7 @@ docker network create --subnet=172.25.0.0/16  zookeepernet
 ## 或者指定driver
 docker network create --driver bridge --subnet 172.25.0.0/16 --gateway 172.25.0.1 zookeepernet
 ```
+// 在使用local network时，可能需要绑定hosts
 
 # 启动
 ```shell

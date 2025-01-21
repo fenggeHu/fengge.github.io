@@ -38,6 +38,7 @@ Spring
 - [在mac上构建openwrt](_posts/tools/2022-9-23-在mac上构建openwrt.md)
 - [线程的CPU使用率状态](_posts/tools/2020-3-12-线程的CPU使用率状态.md)
 - [一些Linux命令](_posts/tools/2024-5-21-一些Linux命令.md)
+- [一些Mac命令](_posts/tools/2025-1-21-一些Mac命令.md)
 
 # 其它
 [python开发环境和打包](_posts/it/2022-02-21-python环境和打包.md)
